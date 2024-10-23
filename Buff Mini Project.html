@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buff Mini Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      #top {
+        text-align: center;
+      }
+      /* .flex {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      } */
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="flex flex-col justify-center items-center mt-10">
+        <img width="100" src="buff logo.svg" alt="logo" />
+        <h5>Creative Collage</h5>
+      </div>
+      <div id="top">
+        <p style="margin-top: 20px">
+          Ministry of Coroprate Affairs (Govt.of.india) Reg :
+          CIN:U80301TN2023PTCI51960
+        </p>
+        <p style="margin: 10px">
+          Reg Under:MSME(Govt.of.india)UDYAM-TN-08-0040357| AN ISO 9001:2015
+          Certified by the American Board of Accredition
+        </p>
+      </div>
+    </div>
+    <hr class="border-dashed border bg-black mt-10 mx-20" />
+
+    <h1 class="flex items-center justify-center mt-5">
+      <b>Admission Form</b>
+    </h1>
+    <div class="flex items-center justify-center gap-5 w-full mt-5">
+      <input type="checkbox" id="district" name="district" value="chennai" />
+      <label>chennai </label>
+      <input type="checkbox" id="district" name="district" value="Coimbatore" />
+      <label>Coimbatore </label>
+      <input type="checkbox" id="district" name="district" value="Madurai" />
+      <label>Madurai </label>
+      <input type="checkbox" id="district" name="district" value="Nagercoil" />
+      <label>nagercoil </label>
+    </div>
+    <div class="mt-10 mx-20 flex justify-between">
+      <div>
+        <label for="joining">Date Of joining :</label>
+        <input
+          class="border-soiled border-2 border-current"
+          type="date"
+          id="joining"
+          name="joining"
+        />
+      </div>
+      <div>
+        <label for="roll number">Roll No :</label>
+        <input
+          class="border-soiled border-2 border-current"
+          type="number"
+          id="number"
+          name="roll name"
+        />
+      </div>
+    </div>
+    <!-- <input class="border-soiled border-2 border-current" type="text" /> -->
+  </body>
+</html>

@@ -9,13 +9,6 @@
       #top {
         text-align: center;
       }
-      /* .flex {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-      } */
     </style>
   </head>
   <body>
@@ -70,6 +63,383 @@
         />
       </div>
     </div>
-    <!-- <input class="border-soiled border-2 border-current" type="text" /> -->
+    <h1 class="mt-10 mx-20">
+      <b>Basic Details of the candidate</b> ( To be filled in block letters)
+    </h1>
+    <div class="flex justify-start mt-10 gap-5 mx-40">
+      <label>Name of the Applicant :</label>
+      <input class="border-soiled border-2 border-current" type="text" />
+    </div>
+    <div class="flex justify-start mt-4 gap-10 mx-40">
+      <label>Aadhar number :</label>
+      <input class="border border-2 border-current" />
+    </div>
+    <div class="flex justify-start mt-4 gap-5 mx-40">
+      <label>Nationality :</label>
+      <input class="border border-2 border-current" type="text" />
+    </div>
+    <div class="flex justify-start mt-4 gap-5 mx-40">
+      <label>Gender :</label>
+      <input type="checkbox" name="male" value="male" />
+      <label>Male</label>
+      <input type="checkbox" name="female" value="female" />
+      <label>Female</label>
+      <input type="checkbox" name="others" value="others" />
+      <label>Others</label>
+    </div>
+    <div class="flex justify-start mt-4 gap-5 mx-40">
+      <label>Course :</label>
+      <input class="border border-2 border-current" type="text" />
+    </div>
+    <div class="flex justify-start mt-4 gap-5 mx-40">
+      <label>Date Of Birth :</label>
+      <input
+        class="border border-2 border-current"
+        type="date"
+        id="bithday"
+        name="bithday"
+      />
+    </div>
+    <div class="flex justify-between mt-4 mx-40">
+      <div class="gap-5">
+        <label>Mother Tongue :</label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+      <div class="gap-5">
+        <label>Blood Group :</label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+    </div>
+    <div class="flex justify-start mt-4 mx-40 gap-5">
+      <label>Email Address (Mandatory) :</label>
+      <input class="border border-2 border-current" type="text" />
+    </div>
+    <div class="flex justify-start mt-4 mx-40 gap-5">
+      <label>Mobile number :</label>
+      <input class="border border-2 border-current" type="text" />
+    </div>
+    <div class="flex justify-start mt-4 mx-40 gap-5">
+      <label>Father / Mother / Guardian / Kin Name :</label>
+      <input class="border border-5 border-current" type="text" />
+    </div>
+    <div class="flex justify-start mt-4 mx-40 gap-5">
+      <label>Occupation :</label>
+      <input class="border border-2 border-current" type="text" />
+    </div>
+    <div class="flex justify-start mt-4 mx-40 gap-5">
+      <label>Parent / Guardian / Next Of Kin MObile number :</label>
+      <input class="border border-2 border-current" type="text" />
+    </div>
+    <div class="flex justify-start mt-4 mx-40 gap-5">
+      <label> Permant Address :</label>
+      <input class="border border-2 border-current" type="text" />
+    </div>
+    <div class="flex justify-between mt-4 mx-40 gap-5">
+      <div>
+        <label>District :</label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+      <div>
+        <label>PIN Code :</label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+    </div>
+    <div class="flex justify-between mt-4 mx-40 gap-5">
+      <div>
+        <label>State :</label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+      <div>
+        <label>Country :</label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+    </div>
+    <div class="flex justify-between mt-4 mx-40 gap-5">
+      <div>
+        <label> Communication Address :</label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+      <div>
+        <input type="checkbox" />
+        <label> Same as permanent address</label>
+      </div>
+    </div>
+    <div class="flex justify-between mt-4 mx-40 gap-5">
+      <div>
+        <label>District :</label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+      <div>
+        <label>PIN Code :</label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+    </div>
+    <div class="flex justify-between mt-4 mx-40 gap-5">
+      <div>
+        <label>State :</label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+      <div>
+        <label>Country :</label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+    </div>
+    <h1 class="mx-40 mt-20"><b>EDUCATION HISTROY</b></h1>
+    <p class="mx-40 mt-2">
+      Please lits all schools,Collage,universities including the institution you
+      have completed.
+    </p>
+    <!-- <table class="border text-left pd-8">
+      <tr>
+        <th>Course</th>
+        <th>
+          Institude <br />
+          ( Name & location )
+        </th>
+        <th>Medium of instruction</th>
+        <th>Month & year of passing</th>
+        <th>Percentage / CGPA / Grade</th>
+      </tr>
+      <tr>
+        <td>dvdvn</td>
+        <td>mznvlk</td>
+        <td>sczjb</td>
+      </tr>
+    </table> -->
+    <h1 class="mx-40 mt-20"><b>EMPLOYMENT HISTORY</b></h1>
+    <div class="flex justify-start mx-40 mt-4 gap-5">
+      <label>(a) Whether employed</label>
+      <div>
+        <input type="checkbox" />
+        <label>yes</label>
+      </div>
+      <div>
+        <input type="checkbox" />
+        <label>No</label>
+      </div>
+    </div>
+    <div class="flex justify-start mx-40 mt-4 gap-5">
+      <label
+        >(b) If yes,how many years of full-time work experience do you
+        have?</label
+      >
+      <input class="border border-2 border-current" type="text" />
+    </div>
+    <p class="mx-40 mt-4">
+      (c) Please describe the most recent full time position you have had which
+      lasted at least 12 months
+    </p>
+    <div class="flex justify-center mx-40 mt-5 gap-5">
+      <div>
+        <label><b>Emloyer :</b></label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+      <div>
+        <label><b>From (date) :</b></label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+      <div>
+        <label><b>Designation :</b></label>
+        <input class="border border-2 border-current" type="text" />
+      </div>
+    </div>
+    <h1 class="mx-40 mt-10"><b>SPECIFIC DETAILS OF THE CANDIDATE</b></h1>
+    <div class="flex justify-start mx-40 mt-4 gap-5">
+      <label><b>(a) Differntly Abled</b></label>
+      <div>
+        <input type="checkbox" />
+        <label>Yes</label>
+      </div>
+      <div>
+        <input type="checkbox" />
+        <label>NO</label>
+      </div>
+    </div>
+    <div class="flex justify-start mt-5 mx-40">
+      <p><b>(b) Medical information</b></p>
+    </div>
+    <div class="flex justify-start mt-4 mx-40 gap-5">
+      <p>Do you have anu medical condition ?</p>
+      <input type="checkbox" />
+      <label>Yes</label>
+      <input type="checkbox" />
+      <label>No</label>
+    </div>
+    <h2 class="mx-40 mt-4"><b>Enrollment Declartion :</b></h2>
+    <div class="mx-40 mt-2">
+      <p>
+        1. By enrolling in our courses, you acknowledge and agree to the
+        following
+      </p>
+      <p>
+        2. You certify that all information provided during enrollment is
+        complete,accurate and current.
+      </p>
+      <p>
+        3. It is your responsibilty to ensure that all fees are paid by their
+        respectivity due dates.Failure to obey will require you to follow to
+        the<br />
+        campus rules applicable during your courses duration.
+      </p>
+    </div>
+    <h2 class="mx-40 mt-4"><b>Terms and conditions:</b></h2>
+    <div class="mx-40 mt-2">
+      <p>
+        1. Republishing ,selling or redistributing material from Buff Creative
+        Collage is strictly prohibited.
+      </p>
+      <p>2. Admission to courses is at the discretion the management.</p>
+      <p>
+        3. Students must provide a recent passport-size photography at the time
+        of admission.
+      </p>
+      <p>
+        4. Students are expected to follow to the code of conducct outlined in
+        the rules and regulations.
+      </p>
+      <p>
+        5. By sharing their mobile numbers and emails IDs,student consent to
+        receiving emails or message and updates regarding the course.
+      </p>
+      <p>
+        6. The management reserves the right to take disciplinary action against
+        students for violations of terms and conditions.
+      </p>
+      <p>
+        7. Syllabs and materials are prepared according to industry standards
+        and students cannot request alternations
+      </p>
+    </div>
+    <h2 class="mx-40 mt-4"><b>Withdrawal and Refunds</b></h2>
+    <div class="mx-40 mt-2">
+      <p>
+        1.Fees once paid are non-refurndable,non-returnable and
+        non-transferable.
+      </p>
+    </div>
+    <h2 class="mx-40 mt-4"><b>Refund policy for course cancellation :</b></h2>
+    <div class="mx-40 mt-2">
+      <p>
+        1. Arefund request can be made before the coruses start,with an 18%
+        deduction,provided the course hasn't commenced.
+      </p>
+      <p>
+        2. Upon th enrollment.processing fees and GST are deducted from the
+        refund based on the time before or after Course commenced.
+      </p>
+      <p>
+        3. No refund for modules already provided.After classes start,a 75%
+        deduction applies for full payments,with no refunds for partial
+        payments.
+      </p>
+      <p>
+        4.Refund exceptions may apply for approved medical,employment,family or
+        persional reasons ,supported by evidence.
+      </p>
+      <p>5. Changing courses does not result in a refund of fees.</p>
+      <p>
+        6. To be eligible for a refund ,you must offcially withdraw from the
+        course and complete a refund request form.
+      </p>
+    </div>
+    <h2 class="mx-40 mt-4"><b>Changing course</b></h2>
+    <div class="mx-40 mt-2">
+      <p>
+        Course change request are only accepted for upgrades or downgrades and
+        require approval.
+      </p>
+    </div>
+    <h2 class="mx-40 mt-4"><b>Campus Transfer Policy:</b></h2>
+    <div class="mx-40 mt-2">
+      <p>
+        Campus transfer are generally not permitted onc3e ea studentin enrolled.
+      </p>
+      <p>
+        However exceptions may be considered under special circumentces, such as
+        approved medical,employment,family,or personal reasons ,supported by
+        appropriate evidence.
+      </p>
+    </div>
+    <h2 class="mx-40 mt-4"><b>Procedure for campus Transfer:</b></h2>
+    <div class="mx-40 mt-2">
+      <p>
+        Students wishing to transfer campuses must formally email thier request
+        to the academic through current campus.
+      </p>
+      <p>
+        Upon review thestudents will bw notified of the decision regrarding
+        their transfer request.
+      </p>
+    </div>
+    <h2 class="mx-40 mt-4"><b>Fee Transfer</b></h2>
+    <div class="mx-40 mt-2">
+      <p>
+        If the transfer is approved the fees paid by the student will be
+        transferred to the new campus,with a deducation for processing fees.
+      </p>
+      <p>
+        We prioritize the well-being and academic needs of our students and aim
+        to accommodate reasonable request for campus transfers whenever
+        possible.
+      </p>
+    </div>
+    <h2 class="mx-40 mt-4"><b>Exam policy</b></h2>
+    <div class="mx-40 mt-2">
+      <p>
+        candidates are required to confirm their exam timetables and circulars
+        promptly upon notification.
+      </p>
+      <p>
+        A candidate must inform the center head in advance if they wish to
+        withdraw from a particular exam.
+      </p>
+      <p>
+        candidates may reappear fro exams once the campus announce
+        them.however,the request for reappearing must be directed to the
+        specific campus and the decision regarding reappearingrests with th
+        ecampuses.
+      </p>
+    </div>
+    <h2 class="mx-40 mt-4"><b>Certification Process</b></h2>
+    <div class="mx-40 mt-2">
+      <p>
+        upon completing theroy exams and case studies taught,documentation must
+        be submitted in ethier digital or printed format to the designated
+        authority or campus to receive.
+      </p>
+      <p>A course completion Certificate</p>
+      <p>A statement of marks</p>
+      <p>
+        internship Certificate for clearly defined course at the time of
+        enrollment we emphasize the important of following the exam policies
+        outlined above to ensure smooth conduct and fair evaluation of exams.
+      </p>
+    </div>
+    <h2 class="mx-40 mt-4"><b>Placement Support and norms:</b></h2>
+    <div class="mx-40 mt-2">
+      <p>
+        You are provided with lifetime access to placement support and assitance
+        within tha campus.
+      </p>
+      <p>
+        Placement follows specific norms based on continuous assessment within
+        the campus and revlevant subjects.
+      </p>
+    </div>
+    <h2 class="mx-40 mt-4">
+      <b>Attendance:</b>Your regularity in attending campus and classes is
+      evaluated.
+    </h2>
+    <h2 class="mx-40 mt-4">
+      <b>Task Completion:</b> Timely completion of assigned tasks is assessed.
+    </h2>
+    <h2 class="mx-40 mt-4">
+      <b>Attentiveness :</b> Your level of Attentiveness in completing tasks on
+      time is considered.
+    </h2>
+    <h2 class="mx-40 mt-4">
+      <b>Positive Attitude :</b> A Positive attitude towards subjects and career
+      goals significantly influences placement.
+    </h2>
   </body>
 </html>
